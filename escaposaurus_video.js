@@ -71,6 +71,9 @@ function startGameLocally(overlay){
 	var files = udiskData.root.files ;
 
 	loadGame(folders,files, overlay) ;
+
+	addedFunction();
+
 }
 
 function startGame(overlay){
