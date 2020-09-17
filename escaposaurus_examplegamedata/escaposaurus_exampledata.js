@@ -52,14 +52,14 @@
 								  "password": "simonpegg",
 									"sequence": 1,
 								 	"files": [
-										"rapport-cuse.png",
+										"rapport-cuse.jpg",
 										"08102017-0254451.mp4",
 										"wesecuryou-annuaire.jpg"
 									],
 									"folders": [
 										{
 											"foldername": "appel-wesecuryou",
-											"password": "+336668985220",
+											"password": "+33666898522",
 											"sequence": 2,
 											"files": ["Video_Envoyee_par_WeSecurYou.mp4"]
 										}
@@ -72,25 +72,18 @@
 		            "foldername":"videosurveillance-wesecuryou",
 		            "sequence":0,
 		            "files":[
-										"04122018-08-15.mp4",
-										"04122018-09-03.mp4",
-										"04122018-10-37.mp4",
-										"04122018-10-43.mp4",
-										"04122018-11-11.mp4",
-										"04122018-12-29.mp4",
-										"04122018-13-44.mp4",
-										"04122018-14-54.mp4",
-										"04122018-15-18.mp4",
-										"04122018-16-32.mp4",
-										"04122018-17-12.mp4",
+										"04122018-06-23.mp4",
+										"04122018-07-12.mp4",
+										"04122018-08-20.mp4",
+										"04122018-09-45.mp4",
+										"04122018-13-25.mp4",
+										"04122018-17-54.mp4",
+										"04122018-19-12.mp4",
 										"04122018-18-42.mp4",
-										"04122018-19-23.mp4",
-										"04122018-20-13.mp4",
-										"04122018-21-45.mp4",
-										"04122018-22-38.mp4",
-										"04122018-23-38.mp4",
-										"04122018-00-12.mp4",
-										"04122018-01-27.mp4"
+										"04122018-22-13.mp4",
+										"04122018-23-36.mp4",
+										"04122018-00-09.mp4",
+										"04122018-02-46.mp4"
 		            ]
 		         }
 
@@ -125,7 +118,7 @@
 		prompt[0] = "" ;
 		prompt[1] = "Appeller Paul Hissier pour lui parler de l'affaire" ;
 		prompt[2] = "" ;
-		prompt[3] = "" ;
+		prompt[3] = "Contactez le centre WeSecurYou de Charente" ;
 		prompt[4] = "" ;
 
 		/*when the sequence number reach this, the player win, the missing contact is added and the player can call them*/
