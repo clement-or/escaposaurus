@@ -115,7 +115,7 @@
 		var gameThanks = "" ;
 
 		var OSName = "Special InformaticienOS 3.11- diskloaded: Escaposaurus_Example" ;
-		var explorerName = "Disque E: - Explorateur de fichiers" ;
+		var explorerName = "Disque E: - Clé USB de Paul" ;
 		var callerAppName = "VoIP - Appeller un contact" ;
 
 		/*titles of video windows*/
@@ -140,7 +140,7 @@
 		/*if you put in the string "noHint", player will be able to immediatly call the contact at the beginning of the sequence*/
 		/*if you put "none" or anything that is not an existing filename, the player will NOT be able to call the contacts during this sequence*/
 		var seqMainHint = [] ;
-		seqMainHint[0] = "aucun" ;
+		seqMainHint[0] = "04122018-18-42.mp4" ;
 		seqMainHint[1] = "noHint" ; /*if you put anything that is not an existing filename of the udisk, the player will never be able to call any contacts or get helps during this sequence*/
 		seqMainHint[2] = "aucun" ;
 		seqMainHint[3] = "noHint" ;
@@ -149,26 +149,24 @@
 	their img need to be placed in their video folder, username is their displayed name
 		*/
 		var normalContacts = [] ;
-		normalContacts[0] = {"vid" : "Paul", "vod_folder" : "", "username" : "Paul Hissier", "canal" : "video", "avatar" : "contact.png"} ;
+		normalContacts[0] = {"vid" : "Paul", "vod_folder" : "", "username" : "Paul Icier", "canal" : "video", "avatar" : "contact.png"} ;
 		normalContacts[1] = {"vid" : "WeSecurYou", "vod_folder" : "", "username" : "WeSecurYou (vidéosurveillance)", "canal" : "video", "avatar" : "contact.png"} ;
 
 		/*second part of the list, contact that can help the player*/
 		var helperContacts = [] ;
-		/*helperContacts[1] = {"vid" : "Lou", "username" : "Lou (pour avoir un deuxième indice) - par message", "canal" : "txt", "avatar" : "Lou_opt.jpg", "bigAvatar" : "avatarHelper2Big.gif"} ;*/
-
 
 		/*ce qui apparait quand on trouve le dernier élément du disque dur*/
 		finalStepAdded = "La vidéo a été transmise." ;
 
 		/*the last call, it can be the person we find in the end or anyone else we call to end the quest, allows the game to know it is the final contact that is called and to proceed with the ending*/
-		var missingContact = {"vid" : "missing", "vod_folder" : "","username" : "Paul Hissier",  "canal" : "video", "avatar" : "contact.png"} ;
+		var missingContact = {"vid" : "missing", "vod_folder" : "","username" : "Paul Icier",  "canal" : "video", "avatar" : "contact.png"} ;
 
 		/*Lou only send text message, they are stored here*/
 		var tips = {} ;
 
 		/*text for the instruction / solution windows*/
 		var instructionText = {} ;
-		instructionText.winState = "Appellez Paul pour lui faire part de votre découverte." ;
+		instructionText.winState = "Apellez Paul pour lui faire part de votre découverte." ;
 		instructionText.lackMainHint = "" ;
 		instructionText.password = "Vous devez trouver et entrer le mot de passe d'un des dossiers de la boite de droite. Vous pouvez trouver le mot de passe en appelant les contacts de la boite de gauche.<br/>Pour entrer un mot de passe, cliquez sur le nom d'un dossier et une fenêtre s'affichera pour que vous puissiez donner le mot de passe." ;
 
