@@ -113,10 +113,10 @@
 		var gameMissionCall = "Vous travaillez en tant qu'avocat dans un cabinet. Votre patronne vous convoque pour vous parler d'une affaire." ;
 		var gameMissionAccept = "&raquo;&raquo; Accepter le job &laquo;&laquo;" ;
 
-		var gameCredit = "Un jeu conçu et réalisé par : <br/>NOM PRENOM<br/>NOM PRENOM<br/>NOM PRENOM<br/>NOM PRENOM<br/>NOM PRENOM" ;
+		var gameCredit = "Un jeu conçu et réalisé par : <br/>Pierre ACEITUNO<br/>Brice CORNUAU<br/>Dorian FILLATRE<br/>Clément ORLANDINI<br/>Maëlys SCHOEPFER" ;
 		var gameThanks = "" ;
 
-		var OSName = "Special InformaticienOS 3.11- diskloaded: Escaposaurus_Example" ;
+		var OSName = "WinSucks 10.1 2020 Edition Premium Gold" ;
 		var explorerName = "Disque E: - Clé USB de Paul" ;
 		var callerAppName = "VoIP - Appeller un contact" ;
 
@@ -165,6 +165,13 @@
 
 		/*Lou only send text message, they are stored here*/
 		var tips = {} ;
+
+		var hints = [
+			{hint: "Trouvez la bonne vidéo de vidéosurveillance. Peut-être qu'un document peut vous donner un indice sur l'heure de l'altercation ?", solution: "Regardez la vidéo 04122018-18-42.mp4"},
+			{hint: "", solution: ""},
+			{hint: "", solution: ""},
+			{hint: "", solution: ""}
+		]
 
 		/*text for the instruction / solution windows*/
 		var instructionText = {} ;
