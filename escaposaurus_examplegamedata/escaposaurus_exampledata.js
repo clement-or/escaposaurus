@@ -171,7 +171,7 @@
 			{hint: "Il faut dévérouiller le dossier docs-j-cuse. Appellez Paul, il connaît peut-être le mot de passe.", solution: "Déverouillez le dossier docs-j-cuse avec le mot de passe simon-pegg"},
 			{hint: "Essayez de contacter WeSecurYou. Pour ça, il faudrait entrer le numéro du centre local dans appel-wesecuryou", solution: "Déverouillez le dossier appel-wesecuryou avec le mot de passe +33666898522, puis appellez WeSecurYou."},
 			{hint: "WeSecurYou vous a envoyé la vidéo complète. Regardez la, puis appellez Paul.", solution: "WeSecurYou vous a envoyé la vidéo complète. Regardez la, puis appellez Paul."}
-		]
+		];
 
 		/*text for the instruction / solution windows*/
 		var instructionText = {} ;
