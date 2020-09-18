@@ -88,14 +88,16 @@
 										"04122018-18-09.mp4",
 										"04122018-18-42.mp4",
 										"04122018-19-12.mp4",
-										"04122018-19-32.mp4",
 										"04122018-20-57.mp4",
-										"04122018-21-08.mp4",
+										"04122018-21-56.mp4",
 										"04122018-22-13.mp4",
+										"04122018-23-03.mp4",
 										"04122018-23-36.mp4",
 										"04122018-00-09.mp4",
 										"04122018-01-13.mp4",
-										"04122018-02-46.mp4"
+										"04122018-02-46.mp4",
+										"04122018-03-03.mp4",
+										"04122018-04-43.mp4"
 		            ]
 		         }
 
@@ -127,8 +129,8 @@
 		/*change of caller app prompt for each sequence*/
 		var promptDefault = "Rien à demander, ne pas les déranger." ;
 		var prompt = [] ;
-		prompt[0] = "" ;
-		prompt[1] = "Appeller Paul Hissier pour lui parler de l'affaire" ;
+		prompt[0] = "Appeller Paul Icier pour lui parler de l'affaire" ;
+		prompt[1] = "" ;
 		prompt[2] = "" ;
 		prompt[3] = "Contactez le centre WeSecurYou de Charente" ;
 		prompt[4] = "" ;
@@ -140,7 +142,7 @@
 		/*if you put in the string "noHint", player will be able to immediatly call the contact at the beginning of the sequence*/
 		/*if you put "none" or anything that is not an existing filename, the player will NOT be able to call the contacts during this sequence*/
 		var seqMainHint = [] ;
-		seqMainHint[0] = "04122018-18-42.mp4" ;
+		seqMainHint[0] = "worlds-end.mp4" ;
 		seqMainHint[1] = "noHint" ; /*if you put anything that is not an existing filename of the udisk, the player will never be able to call any contacts or get helps during this sequence*/
 		seqMainHint[2] = "aucun" ;
 		seqMainHint[3] = "noHint" ;

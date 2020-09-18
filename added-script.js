@@ -24,6 +24,10 @@ function addedFunction() {
       changingSequence();
   });
 
+  //unlockContacts();
+  mainHintFound = true ;
+  unlockContacts() ;
+
 /*
   wsyCall.addEventListener("click", e => {
     if (sequenceNumber === 3)
