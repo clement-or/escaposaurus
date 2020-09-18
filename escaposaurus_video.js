@@ -430,6 +430,10 @@ function closeWrongPassword(){
 	closeIt("wrongPassword") ;
 }
 
+function closeVideoWatched() {
+	closeIt("video-watched-window");
+}
+
 const animation = {
 	fadeIn: 'fadeIn .3s',
 	fadeOut: 'fadeOut .3s',

@@ -176,6 +176,15 @@
 		</div>
 	</div>
 
+	<div id="video-watched-window" class="hidden">
+		<div class="app-title"><span class="app-title-span">MESSAGE</span></div>
+		<div class="message-content">
+			La vidéo semble incomplète. Je devrais appeller Paul.
+			<br/>
+			<button class="btn btn-primary" onclick="closeVideoWatched()">OK</button>
+		</div>
+	</div>
+
 	<!-- APPEL ENTRANT -->
 	<div id="calling-window" class="hidden">
 		<div class="app-title"><span class="app-title-span">APPEL ENTRANT</span></div>
@@ -185,16 +194,6 @@
 			Appel entrant...<br/>
 			<br/>
 			<button class="window-btn" onclick="closeAppelEntrant('calling-window')">Répondre</button>
-		</div>
-	</div>
-
-	<!-- MESSAGE DE LOU -->
-	<div id="message-window" class="hidden">
-		<div class="app-title"><span class="app-title-span">MESSAGE</span></div>
-		<div class="message-content">
-			<img  id="caller2IMG" /><br/>
-			<span id="tips-content"></span><br/>
-			<button class="window-btn" onclick="closeIt('message-window')">Fermer</button>
 		</div>
 	</div>
 

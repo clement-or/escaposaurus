@@ -8,8 +8,11 @@ function addedFunction() {
   lastVideo.style.display = "none";
 
   firstVideo.addEventListener("click", e => {
-    if (sequenceNumber === 0)
+    if (sequenceNumber === 0) {
       changingSequence();
+      document.getElementById("video-watched-window").classList.remove("hidden");
+    }
+
     console.log(sequenceNumber);
   });
 

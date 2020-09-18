@@ -39,7 +39,7 @@ video{max-width: 960px;}
 	border:1px solid #1022CC;
 	text-align: center;
 	position:relative;
-	
+
 	background: url(img/background.jpg);
 	background-position: center;
 	background-color:#1022CC;
@@ -200,7 +200,8 @@ video{max-width: 960px;}
 #message-window,
 #nocall-window,
 #solution-window,
-#credit-window{
+#credit-window,
+#video-watched-window{
 	position:absolute;
 	z-index:300;
 	left:45%;
@@ -336,7 +337,7 @@ video{max-width: 960px;}
 
 /*class that deals with the udrive content, tread carefully, it is working ok but very capricious*/
 ul{
-    margin: 0px 0px 0px 20px; 
+    margin: 0px 0px 0px 20px;
     list-style: none; line-height: 2em; font-family: Arial;
 }
 
@@ -404,7 +405,7 @@ ul{
     border-left: 1px solid #000;
     height: 100%;
 }
-    
+
 .rootLI{
 	font-size: 16px;
 	margin: 0px 0px 0px -20px;
