@@ -609,12 +609,13 @@ function instructionReveal(spid){
 	var text = "" ;
 	var sp = document.getElementById(spid) ;
 	if(winState){
-		text = instructionText.winState ;
+		text = hints[sequenceNumber].hint;
 	}else if(mainHintFound === false){
-		text = instructionText.lackMainHint ;
+		text = hints[sequenceNumber].hint ;
 	}else{
 		var foldername = sequenceFolder[sequenceNumber] ;
 		text = instructionText.password ;
+		text = hints[sequenceNumber].hint;
 	}
 	sp.innerHTML = text ;
 	openIt(spid) ;
@@ -624,14 +625,7 @@ function solutionReveal(spid){
 	TinyStato.logThis(102, "solutionreveal", mainHintFound, sequenceNumber) ;
 	var text = "" ;
 	var sp = document.getElementById(spid) ;
-	if(winState){
-		text = solutionText.winState ;
-	}else if(mainHintFound === false){
-		text = solutionText.lackMainHint.replace("%s", seqMainHint[sequenceNumber]) ;
-	}else{
-		var foldername = sequenceFolder[sequenceNumber] ;
-		text = solutionText.password.replace("%s1", foldername).replace("%s2", passwordCenter[foldername]) ;
-	}
+	text = hints[sequenceNumber].solution;
 	sp.innerHTML = text ;
 	openIt(spid) ;
 }
